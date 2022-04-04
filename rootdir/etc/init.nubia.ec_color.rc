@@ -1,0 +1,4 @@
+#nubia ec_color
+on boot
+	chown system system /sys/kernel/ec_color/enable
+	chown system system /sys/kernel/ec_color/sel_mode

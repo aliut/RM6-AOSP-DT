@@ -1,0 +1,4 @@
+on boot
+    chmod 0770 /dev/sec-ese
+
+    chown secure_element secure_element /dev/sec-ese
